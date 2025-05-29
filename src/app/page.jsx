@@ -20,10 +20,11 @@ export default function HomePage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-700 via-indigo-800 to-blue-900 flex items-center justify-center p-6">
+    <div className="min-h-screen bg-gradient-to-br from-purple-600 via-indigo-800 to-blue-900 flex items-center justify-center p-6">
       <form
         onSubmit={handleSubmit}
-        className="bg-indigo-900 bg-opacity-80 rounded-lg p-8 w-full max-w-md text-gray-100"
+        
+         className="bg-white rounded-xl shadow-lg p-8 w-full max-w-md text-gray-900"
       >
         <h1 className="text-3xl font-bold mb-6 text-center">Bingo Spotify</h1>
 
@@ -53,8 +54,9 @@ export default function HomePage() {
 
         <button
           type="submit"
-          className="w-full bg-purple-600 hover:bg-purple-700 transition-colors py-3 rounded text-white font-semibold text-lg"
-        >
+              className="w-full bg-blue-600 hover:bg-blue-700 transition-colors py-3 rounded-lg text-white font-semibold text-lg"
+
+       >
           Ingresar
         </button>
       </form>
